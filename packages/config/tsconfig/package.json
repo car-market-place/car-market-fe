@@ -4,4 +4,4 @@
     "exports": {
       "./tsconfig/base.json": "./base.json"
     }
-  }
+}
