@@ -1,0 +1,7 @@
+{
+    "name": "@car-market/config",
+    "private": true,
+    "exports": {
+      "./tsconfig/base.json": "./base.json"
+    }
+  }
