@@ -1,7 +1,6 @@
 {
   "name": "car-market",
   "private": true,
-  "packageManager": "pnpm@10.0.0",
   "scripts": {
     "dev": "turbo dev",
     "dev:web": "pnpm --filter web dev",
