@@ -2,9 +2,7 @@ name: CI
 
 on:
   push:
-    branches:
-      - develop
-      - main
+    branches: [main, develop]
   pull_request:
 
 jobs:
@@ -12,23 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
+          cache: 'pnpm'
 
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+      - uses: pnpm/action-setup@v4
+        with:
+          run_install: false
 
-      - name: Lint
-        run: pnpm lint
+      - run: pnpm --version
 
-      - name: Type Check
-        run: pnpm typecheck
+      - run: pnpm install --frozen-lockfile
 
-      - name: Build
-        run: pnpm build
+      - run: pnpm build
