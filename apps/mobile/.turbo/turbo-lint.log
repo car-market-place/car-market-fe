@@ -1,0 +1,63 @@
+
+> mobile@1.0.0 lint E:\car-market\car-market-fe\apps\mobile
+> expo lint
+
+No ESLint config found. Configuring automatically.
+ESLint is required to lint your project. Installing eslint-config-expo@~57.0.0
+
+- Installing eslint-config-expo@~57.0.0
+› Installing 1 other package using pnpm
+- Installing eslint-config-expo@~57.0.0
+› Using ~57.0.0 instead of ~57.0.0 for eslint-config-expo because this version was explicitly provided. Packages excluded from dependency validation should be listed in expo.install.exclude in package.json. Learn more: https://docs.expo.dev/more/expo-cli/#configuring-dependency-validation
+- Installing eslint-config-expo@~57.0.0
+> pnpm add --save-dev eslint-config-expo@~57.0.0
+- Installing eslint-config-expo@~57.0.0
+../..                                    |  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+../..                                    | Progress: resolved 1, reused 0, downloaded 0, added 0
+
+   ╭──────────────────────────────────────────╮
+   │                                          │
+   │   Update available! 10.14.0 → 11.13.0.   │
+   │   Changelog: https://pnpm.io/v/11.13.0   │
+   │     To update, run: pnpm self-update     │
+   │                                          │
+   ╰──────────────────────────────────────────╯
+
+../..                                    | Progress: resolved 22, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 41, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 64, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 100, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 153, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 218, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 255, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 346, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 446, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 530, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 614, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 684, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 801, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 971, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 1102, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 1112, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 1113, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 1120, reused 0, downloaded 0, added 0
+ WARN  1 deprecated subdependencies found: uuid@7.0.3
+../..                                    | Progress: resolved 1129, reused 0, downloaded 0, added 0
+../..                                    | Progress: resolved 1129, reused 0, downloaded 0, added 0, done
+
+devDependencies:
++ eslint-config-expo ~57.0.0
+
+../..                                    |  +13 +
+Done in 28.6s using pnpm v10.14.0
+√ Installed eslint-config-expo@~57.0.0
+
+ESLint has been configured 🎉
+
+'eslint' is not recognized as an internal or external command,
+operable program or batch file.
+undefined
+ ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL  Command "eslint" not found
+
+Did you mean "pnpm lint"?
+ ELIFECYCLE  Command failed with exit code 1.
