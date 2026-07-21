@@ -1,5 +1,3 @@
-import { LoginForm } from "./components/login-form";
-
 export default function LoginPage() {
   return (
     <div
@@ -10,9 +8,7 @@ export default function LoginPage() {
       justify-center
     "
     >
-      <div className="w-full max-w-md">
-        <LoginForm />
-      </div>
+      <div className="w-full max-w-md">test</div>
     </div>
   );
 }
