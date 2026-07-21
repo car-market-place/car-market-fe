@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  transpilePackages: [
+    "@car-market/ui",
+    "@car-market/config",
+    "@car-market/api",
+    "@car-market/types",
+  ],
 };
 
 export default nextConfig;

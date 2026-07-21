@@ -1,12 +1,26 @@
 {
-    "compilerOptions": {
-      "target": "ES2022",
-      "module": "ESNext",
-      "moduleResolution": "Bundler",
-      "strict": true,
-      "skipLibCheck": true,
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "noEmit": true
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "paths": {
+      "@car-market/api": [
+        "packages/api/src"
+      ],
+      "@car-market/ui": [
+        "packages/ui/src"
+      ],
+      "@car-market/utils": [
+        "packages/utils/src"
+      ],
+      "@car-market/config": [
+        "packages/config/src"
+      ]
     }
   }
+}
